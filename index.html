@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
 <style>
   html {
   scroll-behavior: smooth;
+   font-family: 'Cormorant Garamond';
 }
 
 </style>
@@ -20,14 +22,37 @@
             conColor:'#1f4287',
             navBar:'#8582f6',
             
-          }
-        }
+          },
+            margin: {
+        'tpx': '23.3rem',
       }
+        },
+         fontSize: {
+      'xs': '.75rem',
+      'sm': '.875rem',
+      'tiny': '.875rem',
+      'base': '1rem',
+      'lg': '1.125rem',
+      'xl': '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+      '5xl': '3rem',
+      '6xl': '4rem',
+      'txl': '4.5rem',
+      '7xl': '5rem',
+    }
+      },
+      minHeight: {
+      '1/2': '50%',
+    }
     }
   </script>
   
 </head>
 <body class="scroll-smooth">
+  <div class="sticky top-2/4 float-left origin-center -rotate-90 -ml-24" style="font-family: 'Cormorant Garamond';">-- Contact me sawkyawwalarhtwe123@gmail.com --</div>
+  <div class="sticky top-2/4 float-right origin-center rotate-90 mr-12" style="font-family: 'Cormorant Garamond';">-- Go Up --</div>
   <div class=" fixed pt-6 px-4 sm:px-6 lg:px-8 text-white z-40">
           <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
             <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
@@ -50,11 +75,11 @@
             <div class="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
               <a href="#home" class="font-medium text-gray-500 hover:text-gray-900">Home</a>
 
-              <a href="#About" class="font-medium text-gray-500 hover:text-gray-900 ">About</a>
+              <a href="#about" class="font-medium text-gray-500 hover:text-gray-900 ">About</a>
 
-              <a href="#Works" class="font-medium text-gray-500 hover:text-gray-900">Works</a>
+              <a href="#works" class="font-medium text-gray-500 hover:text-gray-900">Works</a>
 
-              <a href="#Resume" class="font-medium text-gray-500 hover:text-gray-900">Resume</a>
+              <a href="#resume" class="font-medium text-gray-500 hover:text-gray-900">Resume</a>
 
               <a href="#Other" class="font-medium text-gray-500 hover:text-gray-900">Other Platform</a>
 
@@ -62,70 +87,97 @@
             </div>
           </nav>
         </div>
-  <header class="relative flex items-center p-8 h-screen overflow-hidden my-0" id="home">
-      <div class=" font-mono h-5/6 w-96 rounded-xl shadow mx-24 border-2 text-black relative z-30 float-left p-4" id="aboutContent">
-        <h2 class="text-center text-xl mb-4">Hello, Nice to meet ya!</h2>
-    <p class="leading-8">I'm Krost of the Burma. I'm a developer, a coder and also a UI/UX designer. Thanks for visiting my Portfolio.
-      So when you were here, I would like to suggest you take a tour my portfolio and take a look to my design. There's are a bunch of code and if you want you can copy my code. But make sure you give the credit for me. And if you don't understand my code you can contact me by hitting contact button. Well then, take a tour.<br>
-      I promise you won't regret it.<p>
-        <a href="#About" class="mx-auto w-9/12 flex items-center justify-center px-3 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-base md:px-10">
-                Explore More
-              </a>
+        <div class="bg-cover min-h-screen shadow px-52 py-48" style="background-image: url(./img/1.png);font-family: 'Cormorant Garamond';" id="home">
+            <h1 class="text-txl font-extrabold font-sans" >Hello Nice To Meet Ya!</h1>
+            <p class="text-xl mt-20 mb-16 ">I'm Krost of the Burma. I'm a developer, a coder and also a UI/UX designer. Thanks for visiting my <br>Portfolio. </p>
+            <a class="mx-auto text-lg mx-tpx font-semibold cursor-pointer hover:text-lime-700">Explore More</a>
   </div>
-  <img src ="./img/Bg1.gif"
-    class="absolute z-10 w-auto min-w-full min-h-full max-w-none"/>
-     
-</header>
- <div class="relative flex items-center justify-center h-screen overflow-hidden my-0" id="About">
- >
-<div class="h-1/3 font-mono rounded-xl shadow mx-24 my-12 border-2 text-black absolute z-30 p-4 bottom-0">
+  <div class=" bg-cover min-h-screen px-52 py-48 " style="background-image: url(./img/2.png);font-family: 'Cormorant Garamond';" id="about">
+    <p class="text-base max-w-[55%] mx-auto text-center mt-72">I'm Krost of the Burma. I'm a developer, a coder and also a UI/UX designer. Thanks for visiting my Portfolio. So when you were here, I would like to suggest you take a tour my portfolio and take a look to my design. There's are a bunch of code and if you want you can copy my code. But make sure you give the credit for me. And if you don't understand my code you can contact me by hitting contact button. Well then, take a tour.
+<br>I promise you won't regret it.</p>
+  </div>
+  <div class=" bg-cover min-h-screen px-52 py-24 text-white overflow" style="background-image: url(./img/3.png);font-family: 'Cormorant Garamond';" id="works">
+  <h1 class="text-5xl font-extrabold font-sans mb-16" style="font-family: 'Cormorant Garamond';">My Works</h1>
+  <div class="flex  h-96 mx-auto py-4 ">
+    <div class="container mr-10 min-h-full rounded-lg">
+      <img src="./img/thumb1.png" class='rounded-lg drop-shadow-2xl max-h-40'>
+      <p class="mt-6">Project title and other brief about project are will showed here!</p>
+    </div>
+    <div class="container mr-10">
+      <img src="./img/thumb2.jpeg" class='rounded-lg drop-shadow-2xl max-h-40'>
+      <p class="mt-6">Project title and other brief about project are will showed here!</p>
+    </div>
+    <div class="container mr-10">
+      <img src="./img/thumb3.jpg" class='rounded-lg drop-shadow-2xl max-h-40'>
+      <p class="mt-6">Project title and other brief about project are will showed here!</p>
+    </div>
+      <div class="container mr-10">
+      <img src="./img/thumb4.jpg" class='rounded-lg drop-shadow-2xl max-h-40'>
+      <p class="mt-6">Project title and other brief about project are will showed here!</p>
+    </div>
+  </div>
+  <span class="fa fa-arrow-right float-right text-xl"></span>
+  </div>
+  <div class="px-52 py-24 bg-cover min-h-screen" style="background-image: url(./img/4.png);font-family: 'Cormorant Garamond';" id="resume">
+  <div class="flex py-4 rounded-lg h-3/4">
+    <div class="w-96 py-4  rounded-lg h-full">
+          <img src="./img/cv.jpg" class='rounded-lg drop-shadow-2xl min-h-full'>
+    </div>
+    <div class="flex-auto py-4 rounded-lg h-96 px-24">
+      <h1 class="text-xl font-semibold">My Skill Set</h1>
+      <ul class="py-12 text-md">
+          <li class="flex mb-4"> 
+            <p class="flex-auto w-1/2">HTML 5, CSS, Javascript</p>
+            <div class=" w-3/4 bg-gray-200 h-1 mt-3">
+              <div class="bg-red-500 h-1" style="width: 80%"></div>
+              </div>
+            </li>
+            <li class="flex mb-4"> 
+            <p class="flex-auto w-1/2">C++</p>
+            <div class=" w-3/4 bg-gray-200 h-1 mt-3">
+              <div class="bg-green-500 h-1" style="width: 75%"></div>
+              </div>
+            </li>
+            <li class="flex mb-4"> 
+            <p class="flex-auto w-1/2">Java & Python</p>
+            <div class=" w-3/4 bg-gray-200 h-1 mt-3">
+              <div class="bg-blue-500 h-1" style="width: 50%"></div>
+              </div>
+            </li>
+            <li class="flex mb-4"> 
+            <p class="flex-auto w-1/2">Node.js,Vue.js,React</p>
+            <div class=" w-3/4 bg-gray-200 h-1 mt-3">
+              <div class="bg-orange-500 h-1" style="width: 75%"></div>
+              </div>
+            </li>
+            <li class="flex mb-4"> 
+            <p class="flex-auto w-1/2">Restful API</p>
+            <div class=" w-3/4 bg-gray-200 h-1 mt-3">
+              <div class="bg-cyan-500 h-1" style="width: 60%"></div>
+              </div>
+            </li>
+            <li class="flex mb-4"> 
+            <p class="flex-auto w-1/2">PhP</p>
+            <div class=" w-3/4 bg-gray-200 h-1 mt-3">
+              <div class="bg-pink-500 h-1" style="width: 80%"></div>
+              </div>
+            </li>
 
-    <h2 class="text-center text-xl mb-2 ">Hello, Again!</h2>
-    <p>I'm Krost. But my actual name is Saw Kyaw Walar Htwe. As you can see the first letter of my name is 'Saw' which mean my enthnicity is Karen.<br>
-    I'm 21 years old and live in Yangon. Actually I'm not graduate, but don't dissapoint yet. I have a bunch of skill including basic web staffs, javascript, C, C++, PHP. And I also have experiened in Accounting, UI/UX design, CRM and OOP. As the elder said, work can explain a lot more than words. So, take a look my projects and you can honestly judge my skill at the comment section. <br>
-    There's a resume in this site which will show you the details of my skill set. You can simply click the resume button to see them.
-    Have a nice day sir!<p>
-
+        </ul>
+        <div class="flex w-full mx-12">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png" class='rounded-lg drop-shadow-2xl max-h-8 mr-16'>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png" class='rounded-lg drop-shadow-2xl max-h-8 mr-16'>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" class='rounded-lg drop-shadow-2xl max-h-8 mr-16'>
+        </div>
+        <div class="flex w-full mt-10 mx-12">
+          <img src="https://www.kindpng.com/picc/m/385-3850420_mongodb-svg-png-download-svg-png-mongodb-icon.png" class='rounded-lg drop-shadow-2xl max-h-8  mr-16'>
+          <img src="https://upload.wikimedia.org/wikipedia/my/thumb/6/62/MySQL.svg/2560px-MySQL.svg.png" class='rounded-lg drop-shadow-2xl max-h-8  mr-16'>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Microsoft_Office_Access_%282019-present%29.svg/786px-Microsoft_Office_Access_%282019-present%29.svg.png" class='rounded-lg drop-shadow-2xl max-h-8  mr-16'>
+        </div>
+    </div>
+  
   </div>
-  <img src ="./img/BgAboutMe.gif"
-    class="absolute z-10 w-auto min-w-full min-h-full max-w-none"/>
-</div>
-<div class="relative flex items-center justify-center h-screen overflow-hidden my-0" id="Works">
-  <div
-    class="relative z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl hover:translate-y-6 duration-700"
-  >
-    Welcome to my site!
-  </div>
-  <img src ="./img/Bg2.gif"
-    class="absolute z-10 w-auto min-w-full min-h-full max-w-none"/>
-</div>
-<div class="relative flex items-center justify-center h-screen overflow-hidden my-0" id="Resume">
-  <div
-    class="relative z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"
-  >
-    Welcome to my site!
-  </div>
-  <img src ="./img/Bg4.gif"
-    class="absolute z-10 w-auto min-w-full min-h-full max-w-none"/>
-</div>
-<div class="relative flex items-center justify-center h-screen overflow-hidden my-0" id="Other">
-  <div
-    class="relative z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"
-  >
-    Welcome to my site!
-  </div>
-  <img src ="./img/Bg5.gif"
-    class="absolute z-10 w-auto min-w-full min-h-full max-w-none"/>
-</div>
-<div class="relative flex items-center justify-center h-screen overflow-hidden my-0" id="foot">
-  <div
-    class="relative z-30 p-5 text-2xl text-white bg-purple-300 bg-opacity-50 rounded-xl"
-  >
-    Welcome to my site!
-  </div>
-  <img src ="./img/Bg6.gif"
-    class="absolute z-10 w-auto min-w-full min-h-full max-w-none"/>
-</div>
+  
 <script>
   window.onload = function() {onloadAnimation()};
 
