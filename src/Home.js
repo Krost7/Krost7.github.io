@@ -2,14 +2,14 @@ import React from 'react';
 import './font.css';
 import { Divide as Hamburger } from 'hamburger-react';
 import Particles from "react-tsparticles";
-class App extends React.Component {
 
+class App extends React.Component {
 
 render() {
 return (
   <div>
-        <div className="container px-[10%] py-[70%] md:py-[5%] bg-[url('../public/mbBg1.png')] md:bg-[url('../public/mdBg1.png')] min-h-screen max-h-screen min-w-full bg-cover z-40">
-          <h1 className=" text-4xl font-semibold my-[10%] md:text-6xl">Hello <br/>Nice To Meet Ya!</h1>
+        <div className=" container px-[10%] py-[70%] md:py-[5%] bg-[url('../public/mbBg1.png')] md:bg-[url('../public/mdBg1.png')] min-h-screen max-h-screen min-w-full bg-cover z-40">
+          <h1 className=" text-4xl font-semibold my-[10%] md:text-6xl" >Hello <br/>Nice To Meet Ya!</h1>
           <p className=" text-base md:text-xl">I'm Krost of the Burma. I'm a developer, a coder and also a UI/UX designer. Thanks for visiting my Portfolio. </p>
           <p className=" mx-auto mt-[100px] text-sm md:text-lg text-center border p-2 md:p-3 h-[40px] w-[100px] md:h-[58px] md:w-[130px] cursor-pointer hover:bg-gradient-to-r from-violet-100 to-sky-100 rounded-full text-cyan-600 border-sky-600">Explore More</p>
           <p className="hidden md:inline float-right">Seek Your Future here</p>
@@ -17,7 +17,7 @@ return (
         </div>
         <div className="container px-[10%] py-[10%] md:py-[1%] bg-[url('https://i.pinimg.com/originals/ca/0f/ab/ca0fab980a0e70a23bb782fe32a95058.jpg')] min-w-full md:min-h-screen max-h-screen bg-auto bg-no-repeat md:bg-cover z-40">
           <h1 className=" text-xl font-semibold md:my-[10%] md:text-4xl">Well, Let Me Take You To My Personality</h1>
-          <p className=" text-sm md:text-xl mb-[100px]">I'm Krost of the Burma. I'm a developer, a coder and also a UI/UX designer. Thanks for visiting my Portfolio. So when you were here, I would like to suggest you take a tour my portfolio and take a look to my design. There's are a bunch of code and if you want you can copy my code. But make sure you give the credit for me. And if you don't understand my code you can contact me by hitting contact button. Well then, take a tour.
+          <p className=" text-sm md:text-xl mb-[100px]" >I'm Krost of the Burma. I'm a developer, a coder and also a UI/UX designer. Thanks for visiting my Portfolio. So when you were here, I would like to suggest you take a tour my portfolio and take a look to my design. There's are a bunch of code and if you want you can copy my code. But make sure you give the credit for me. And if you don't understand my code you can contact me by hitting contact button. Well then, take a tour.
 I promise you won't regret it. </p>
           <a href = "mailto: sawkyawwalarhtwe123@gmail.com" className="  text-sm md:text-xl cursor-pointer text-center decoration-solid underline p-2 md:p-3 h-[40px] w-[100px] md:h-[60px] md:w-[140px] text-cyan-600 border-sky-600">Lets Talk</a>
       

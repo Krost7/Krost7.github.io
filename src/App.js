@@ -200,13 +200,13 @@ return (
                     <a className="font-semibold text-black hover:text-indigo-900 text-xl flex-1"><Link to="/Home"><img className="rounded-full hover:bg-sky-100 h-[49px]" src="https://img.icons8.com/external-icongeek26-outline-gradient-icongeek26/64/000000/external-home-user-interface-icongeek26-outline-gradient-icongeek26.png"/></Link></a>
 
 
-                    <a  className="font-semibold text-black hover:text-indigo-900 text-xl "><Link to="/male"><img className="rounded-full hover:bg-sky-100 h-[50px]" src="https://img.icons8.com/nolan/512/apple-mail.png"/></Link></a>
+                    <a href="sawkyawwalarhtwe123@gmail.com"  className="font-semibold text-black hover:text-indigo-900 text-xl "><img className="rounded-full hover:bg-sky-100 h-[50px]" src="https://img.icons8.com/nolan/512/apple-mail.png"/></a>
                     
-                    <a  className="font-semibold text-black hover:text-indigo-900 text-xl"><Link to="/male"><img className="rounded-full hover:bg-sky-100 h-[49px]" src="https://img.icons8.com/nolan/512/linkedin.png"/></Link></a>
+                    <a  href="https://www.linkedin.com/in/kyaw-walar-htwe-98388622a/" className="font-semibold text-black hover:text-indigo-900 text-xl"><img className="rounded-full hover:bg-sky-100 h-[49px]" src="https://img.icons8.com/nolan/512/linkedin.png"/></a>
 
-                    <a  className="font-semibold text-black hover:text-indigo-900 text-xl"><Link to="/male"><img className="rounded-full hover:bg-sky-100 h-[50px]" src="https://img.icons8.com/nolan/64/instagram-new.png"/></Link></a>
+                    <a  className="font-semibold text-black hover:text-indigo-900 text-xl"><img className="rounded-full hover:bg-sky-100 h-[50px]" src="https://img.icons8.com/nolan/64/instagram-new.png"/></a>
                   
-                    <a  className="font-semibold text-black hover:text-indigo-900 text-xl"><Link to="/male"><img className="rounded-full hover:bg-sky-100 h-[50px]" src="https://img.icons8.com/nolan/64/dribbble.png"/></Link></a>
+                    <a  className="font-semibold text-black hover:text-indigo-900 text-xl"><img className="rounded-full hover:bg-sky-100 h-[50px]" src="https://img.icons8.com/nolan/64/dribbble.png"/></a>
                   </div>
                 </nav>
             <div>
