@@ -1,14 +1,23 @@
 import React from 'react';
 import './App.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 import about1 from './about1.png';
 import about2 from './about2.png';
 import about3 from './about3.png';
 class About extends React.Component{
+  componentDidMount() {
+  // or simply just AOS.init();
+  AOS.init({
+    // initialise with other settings
+    duration : 1200
+  });
+}
   render() {
     return (
             <div>
-              <div className="flex pt-16 bg-[#253439]">
-               <div className="w-2/6 p-12">
+              <div className="flex pt-16 bg-[#253439]" data-aos="fade-up">
+               <div className="w-2/6 p-12" >
                   <img src="https://images.squarespace-cdn.com/content/v1/55c8b005e4b09069b52cac48/1537101450552-WNH83Y9STB556398FTJK/39486222_542696442830193_1245952197045256192_n%281%29.jpg" alt="Girl in a jacket" className="rounded-2xl object-cover"/>
                 </div>
                 <div className="w-2/6 pt-10">
@@ -17,11 +26,11 @@ class About extends React.Component{
                   </p>
                 </div>
               </div>
-              <div className="mx-auto">
+              <div className="mx-auto" data-aos="fade-up">
                 <h1 className=" my-4 text-white scrol mx-[30%]">SCROLL</h1>
                 <div className=" bg-white w-[1px] opacity-70 mx-[32%] h-[350px]"></div>
               </div>
-              <div className="flex w-2/4 w-full p-12 my-16">
+              <div className="flex w-2/4 w-full p-12 my-16" data-aos="fade-right">
                 <div className=" w-2/4">
                   <hr className=" w-24 opacity-70 mt-[12px] my-16 "/>
                   <p className="text-white w-[80%] scrol text-2xl">
@@ -34,7 +43,7 @@ class About extends React.Component{
               </div>
                 <hr className="opacity-50"/>
 
-              <div className="flex w-2/4 w-full p-12 my-16">
+              <div className="flex w-2/4 w-full p-12 my-16" data-aos="fade-left">
                 
                 <div className=" w-2/4 ">
                    <img className="w-[500px] h-[500px] mr-28" src={about2} alt="Sublime Text"/>
@@ -48,7 +57,7 @@ class About extends React.Component{
               </div>
 
                 <hr className="opacity-50"/>
-              <div className="flex w-2/4 w-full p-12 my-16">
+              <div className="flex w-2/4 w-full p-12 my-16" data-aos="fade-right">
 
               <div className=" w-2/4">
                   <hr className=" w-24 opacity-70 mt-[12px] my-16 "/>

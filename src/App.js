@@ -7,7 +7,8 @@ Route,
 Link,
 } from "react-router-dom";
 import Home from './Home';
-import About from './About'
+import About from './About';
+import Works from './Works';
 class App extends React.Component{
   render() {
     return (
@@ -24,8 +25,8 @@ class App extends React.Component{
                 <ul className="flex flex-1 opacity-70">
                   <li><Link to="/">Home</Link></li>
                   <li><Link to="/About">About</Link></li>
-                  <li><Link to="/">Skills</Link></li>
-                  <li><Link to="/">Works</Link></li>
+                  <li><Link to="/Works">Works</Link></li>
+                  <li><Link to="/">Personality</Link></li>
                 </ul>
                 <h1 className="m-2 opacity-70"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#B29E84" d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg></h1>
               </div>
@@ -33,6 +34,7 @@ class App extends React.Component{
             <Routes>
               <Route exact path="/" element={<Home/>}/>
               <Route exact path="/About" element={<About/>}/>
+              <Route exact path="/Works" element={<Works/>}/>
             </Routes>
           </div>
      </Router>
