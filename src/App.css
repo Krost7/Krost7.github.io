@@ -1,38 +1,35 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:ital@0;1&display=swap');
+.navBar{
+  font-family: 'Hammersmith One', sans-serif;
+  color: #B29E84;
+}
+.navBar li{
+ padding-right: 120px;
+ font-size: 1.35rem;
+
+}
+.greeting{
+  font-family: 'Playfair Display', serif;
   text-align: center;
+  color: #B29E84;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content{
+  font-family: 'Playfair Display', serif;
+  color: #F6F4F1;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.name{
+  font-family: 'Hammersmith One', sans-serif;
+  color: #F6F4F1;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.but{
+  font-family: 'Playfair Display', serif;
 }
-
-.App-link {
-  color: #61dafb;
+.icon:hover {
+  fill: black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scrol{
+  font-family: 'Hammersmith One', sans-serif;
+}
+.secHeader{
+    font-family: 'Hammersmith One', sans-serif;
 }

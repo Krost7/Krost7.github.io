@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import lazyload from 'react-lazyload'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Suspense fallback={<div>Loading...</div>}/>
+    <lazyload once>
+    <App className="bg-[#253439]"/>
+    </lazyload>
   </React.StrictMode>,
   document.getElementById('root')
 );
